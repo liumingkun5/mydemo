@@ -1,0 +1,70 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul,ol{list-style: none;}
+img,input{border: none;}
+body{font-family: arial,"微软雅黑","宋体";}
+i{font-style: normal;}
+a{color: #666;}
+a:hover {color: #c81623;}
+.clearfix:after{content: "200b";visibility: hidden; height: 0; clear: both;	display: block;}
+.header .top{height: 30px ;background:#f1f1f1; }
+.inner{width:1210px;margin: 0 auto; }
+.header .top .diqu{float: left; font-size: 12px; color: #666; line-height: 30px; height: 30px;}
+.header .top .diqu:hover a{color: #c81623;}
+.header .top .inner:hover a{color: #81623;}
+.header .top .inner i{width 10px; height: 5px; display:inline-block; overflow: hidden; line-height: 0px; margin-left: 9px;}
+.top .inner ul{float: right;}
+.top .inner li{float: left; }
+.header .top .line{height: 12px; width: 1px; background: #ddd; margin-top: 9px;}
+.header .top li a{color: #666; font-size: 12px; padding: 0 10px; line-height: 30px; height: 30px; display: inline-block;}
+.header .top .inner i{width 10px; height: 5px; display:inline-block; overflow: hidden; line-height: 0px; margin-left: 9px;}
+.header .top li span{width: 15px; height: 20px; background:url(../images/jd2015img.png) no-repeat ; display: inline-block; margin:5px 3px 0 0; float: left;}
+.header .top li:hover .active{background: #fff;}
+.header .top li:hover a{color: #c81623;}
+.header .top li:hover span{background-position: 0 -25px;}
+.header .top li .mianfei{color:#c81623;}
+.mid{width:1210px; margin: 0 auto; }
+.mid .logo{width: 270px; height:61px; float: left;padding-top: 20px;}
+.mid .form{float: left;margin:27px 0 0 94px;}
+.mid .form .text{width: 449px; height: 32px; border: 2px solid #b61d1d;float: left; color: #666; font-size: 13px;}
+.mid .form .sub{width: 80px; height: 36px; background: #b61d1d; float: left; color: #FFFFFF; cursor: pointer;}
+.mid .form .tgs {font-size: 12px; line-height: 28px; height: 28px;}
+.mid .form a{float: left;margin-right: 11px;}
+.mid .buy{width: 140px; height: 34px; float: right;border: 1px solid #dfdfdf;margin:25px 65px 0 0; line-height: 34px; background:#f9f9f9 url(../images/jd2015img.png)
+no-repeat 18px -49px; position:relative;}
+.mid .buy a{margin-left: 44px; font: "宋体"; font-size: 12px; vertical-align: top;}
+.mid .buy i{font-size: 12px; font-family: consolas;float: right;margin-right: 11px;}
+.mid .buy .number{height: 14px; background: #c81623; border-radius: 6px 6px 6px 0; line-height: 14px; position: absolute; left: 104px; top: -4px; color: #fff;
+ padding: 0 5px; font-size: 12px;}
+.nva{border-bottom: 2px solid #b1191a;}
+.nva .quan{float: left; width:199px; height: 44px; background: #b1191a; line-height: 44px; color: #fff; padding-left: 11px; }
+.nva ul{float: left line-height: 44px; height: 44px;}
+.nva ul a{float: left;line-height: 44px;height: 44px; margin: 0 20px;}
+.page .wrap{float: left; width: 210px;position: relative;}
+.page .wrap .opopup{width: 999px; min-height:465px;border-right: 1px solid #B61D1D; border-bottom: 1px solid #B61D1D; position: absolute;top:0; left: 210px; z-index:2; background: #f7f7f7;display: none;} 
+.page .top .wrap .left{width:209px; height:465px; background: #C81623; border-left: 1px solid #b61d1d;border-bottom: 1px solid #b61d1d;float: left; }
+.page .top .left li{line-height: 31px; height: 31px; padding-left:11px; position: relative;}
+.page .top .left a{color: #fff; }
+.page .top ul h3{font-weight:normal; font-size: 14px; width: 172px; height: 31px; color: #fff; display: block;}
+.page .top ul i{font-size:13px; position: absolute;top: 0; right: 13px; color: #fff;}
+.page .top ul li:hover{background:#fff; }
+.page .top ul li:hover a{color: #000;}
+.page .top ul li a:hover{color: #C81623;}
+.page .top .op_left{padding: 20px 0 0 20px; float: left;width: 730px;}
+.page .top .left_top a{float: left; height: 24px; line-height: 24px;padding: 0 32px 0 9px; background:#7c7171; color: #fff; font-size: 12px; position: relative; margin-right: 10px;}
+.page .top .left_top i{width: 23px;height: 23px; background: #5c5251; text-align: center; font-family:consolas; position: absolute; top: 1px; right: 0;}
+.page .top .left_top a:hover{background:#c81623;}
+.page .top .left_top a:hover i{background:#b1191a;}
+.page .top .left_top  .active{background: #c81623;}
+.page .top .left_top  .active i{background: #b1191a;}
+.page .top .left_but{margin-top: 6px;}
+.page .top .left_but dl{ padding-top: 10px;}
+.page .top .left_but dt{float: left; width: 84px; position: relative;	}
+.page .top .left_but dt a{font-size: 12px; text-align:right; font-weight: bold; display: block; width: 55px;}
+.page .top .left_but dt i{position: absolute; top: 0; right: 17px; font-size: 12px;}
+.page .top .left_but dd{float:left; width: 646px; border-bottom: 1px solid #f0f0f0; padding-bottom: 2px;}
+.page .top .left_but dd a{float: left; padding: 0 8px; height:16px;line-height: 16px; font-size: 12px; display: block; border-left:1px solid #E9E9E9; margin-bottom: 8px;}
+.page .op_right{float: right;width: 188px; margin-top: 20px;}
+.page .op_right .right_top a{width:83px; height: 35px;float: left; padding: 0 1px 1px 0;}
+.page .op_right .right_but{float:left;margin-top: 10px;}
+.page .guang1_but h2{float: left; height: 39px;line-height: 39px;font-size: 20px;}
